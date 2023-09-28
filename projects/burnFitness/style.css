@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 16px;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+}
+.container{
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    max-width: 90vw;
+}
+.logo{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.navbar{
+    display: flex;
+    height: 48px;
+}
+li{
+    margin: 12px 0;
+    list-style: none;
+}
+.navbar li{
+    margin: 0 12px;
+    list-style: none;
+    cursor: pointer;
+}
+.dumbellimg{
+    /* padding: 0 10.5rem; */
+    width: 300px;
+}
+.gymimg{
+    border-radius: 1rem;
+    width: 450px;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+}
+h1{
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.8rem;
+    padding: 1.5rem;
+}
+.box{
+    margin: 12px 24px;
+    padding: 8px 0;
+    min-width: 20vw;
+    border: 2px solid #71160c;
+    border-radius: 1rem;
+}
+/* .section1{max-height: 100vh;} */
+.section2{
+    padding: 6rem;
+}
+.section3{
+    padding: 6rem;
+}
+.section3 table{
+    width: 100vw;
+    margin: 40px 0 302px 0;
+    border-collapse: collapse;
+}
+.section3 table th,
+.section3 table td{
+    width: 24vw;
+    border-bottom: 2px solid gray;
+    padding: 14px;
+}
+.plantable{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+@media(max-width:1000px){
+    .logo{
+        justify-content: center;
+    }
+    nav,ul{
+        flex-direction: column;
+    }
+    .navbar li{
+        display: none;
+    }
+    .navbar{
+        height: auto;
+    }
+    .topleft{
+        width: 100%;
+    }
+    .topright{
+        width: 0;
+    }
+    .gymimg{
+        display: none;
+    }
+    .section1,
+    .section2,
+    .section3{
+        padding: 2rem;
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .box{
+        min-width: 50vw;
+    }
+}

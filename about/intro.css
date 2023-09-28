@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+h1{
+    font-family: 'Fira Sans','Lucida Sans', 'Gill Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Trebuchet MS', Calibri, Geneva, sans-serif, Verdana;
+    margin: 0 12px;
+}
+h2{
+    font-family: 'Fira Sans','Lucida Sans', 'Gill Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Trebuchet MS', Calibri, Geneva, sans-serif, Verdana;
+    margin: 0px 12px;
+}
+p{
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+    margin: 0 12px;
+}
+.moreabout{
+    /* font-family: 'Source Code Pro', 'Courier New', Courier, monospace; */
+    font-weight: 100;
+}
+.infoContainer{
+    /* overwriting */
+    margin: auto;
+    padding: 40px;
+    width: auto;
+    height: auto;
+}
+.skillcontainer{
+    padding: 0 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.v100{
+    width: 360px;
+    height: 8px;
+    background-color: #88ee00;
+}
+.v75{
+    width: 300px;
+    height: 8px;
+    background-color: #8add32;
+}
+.v65{
+    width: 240px;
+    height: 8px;
+    background-color: #88aa00;
+}
+.v50{
+    width: 200px;
+    height: 8px;
+    background-color: #99aa00;
+}
+.square{
+    /* border: 1px solid gray; */
+    /* border-radius: 6px; */
+    /* max-width: 20px; */
+    margin: 0 6px;
+    padding: 0px 2px;
+}
+footer{
+    margin: 8px 24px;
+}

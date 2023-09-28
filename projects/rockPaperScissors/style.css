@@ -1,0 +1,42 @@
+*{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#111315;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+div{
+    font-family: 'Segoe UI',  'Open Sans', 'Helvetica Neue' , -apple-system, sans-serif, Roboto, Oxygen, Ubuntu, Cantarell, BlinkMacSystemFont;
+}
+span{
+    padding: 4px;
+}
+button{
+    cursor: pointer;
+    padding: 4px 12px;
+    border: 0;
+    /* border-radius: 0.5rem; */
+}
+.rock {
+    background: #ff1e70;
+}
+.paper {
+    background: #70ff1e;
+}
+.scissors {
+    background: #1e70ff;
+}
+.rock button{
+    background: #ff1e70;
+}
+.paper button{
+    background: #70ff1e;
+}
+.scissors button{
+    background: #1e70ff;
+}

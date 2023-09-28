@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <nav class="px-2 py-3 h-16 text-3xl text-white bg-purple-900 flex items-center font-custom">
+        <ul>
+            <li>MyTicTacToe.com</li>
+        </ul>
+    </nav>
+    <div class="gameContainer flex justify-center items-center mt-12">
+        <div class="line"></div>
+        <div class="container grid grid-rows-3 grid-cols-3 font-custom w-custom h-custom">
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-l-0 border-t-0 "><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-t-0"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-t-0 border-r-0"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-l-0"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-r-0"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-l-0 border-b-0"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-b-0"><span class="boxtext"></span></div>
+            <div class="box border-2 text-custom cursor-pointer flex justify-center items-center hover:bg-purple-200 border-b-0 border-r-0"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameInfo px-9 justify-center items-center">
+            <h1 class="text-4xl my-2">Welcome to Tic Tac MyTicTacToe</h1>
+            <div>
+                <span class="info text-2xl">Turn for X</span>
+                <button class="mx-6 px-6 py-1 bg-purple-200 font-bold text-2xl rounded-lg" id="reset">Reset</button>
+            </div>
+            <div class="imgBox">
+                <img  class="w-0 transition-width" src="files/excited.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

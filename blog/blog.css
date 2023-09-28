@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+.blogcontainer{
+    margin: 30px;
+}
+.blogcontainer h1{
+    font-family: 'Fira Sans','Lucida Sans', 'Gill Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Trebuchet MS', Calibri, Geneva, sans-serif, Verdana;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans','Lucida Sans', 'Gill Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Trebuchet MS', Calibri, Geneva, sans-serif, Verdana;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+}
